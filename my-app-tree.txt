@@ -1,0 +1,101 @@
+.
+├── my-app
+│   ├── ace.js
+│   ├── adonisrc.ts
+│   ├── app
+│   │   ├── controllers
+│   │   │   ├── new_account_controller.ts
+│   │   │   └── session_controller.ts
+│   │   ├── exceptions
+│   │   │   └── handler.ts
+│   │   ├── middleware
+│   │   │   ├── auth_middleware.ts
+│   │   │   ├── container_bindings_middleware.ts
+│   │   │   ├── guest_middleware.ts
+│   │   │   └── silent_auth_middleware.ts
+│   │   ├── models
+│   │   │   └── user.ts
+│   │   └── validators
+│   │       └── user.ts
+│   ├── bin
+│   │   ├── console.ts
+│   │   ├── server.ts
+│   │   └── test.ts
+│   ├── config
+│   │   ├── app.ts
+│   │   ├── auth.ts
+│   │   ├── bodyparser.ts
+│   │   ├── database.ts
+│   │   ├── encryption.ts
+│   │   ├── hash.ts
+│   │   ├── logger.ts
+│   │   ├── session.ts
+│   │   ├── shield.ts
+│   │   ├── static.ts
+│   │   └── vite.ts
+│   ├── database
+│   │   ├── migrations
+│   │   │   └── 1758943358073_create_users_table.ts
+│   │   ├── schema_rules.ts
+│   │   └── schema.ts
+│   ├── eslint.config.js
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── resources
+│   │   ├── css
+│   │   │   └── app.css
+│   │   ├── js
+│   │   │   └── app.js
+│   │   └── views
+│   │       ├── components
+│   │       │   ├── alert
+│   │       │   │   ├── description.edge
+│   │       │   │   ├── root.edge
+│   │       │   │   └── title.edge
+│   │       │   ├── avatar.edge
+│   │       │   ├── button.edge
+│   │       │   ├── checkbox
+│   │       │   │   ├── control.edge
+│   │       │   │   └── group.edge
+│   │       │   ├── field
+│   │       │   │   ├── error.edge
+│   │       │   │   ├── label.edge
+│   │       │   │   └── root.edge
+│   │       │   ├── form
+│   │       │   │   └── index.edge
+│   │       │   ├── input
+│   │       │   │   └── control.edge
+│   │       │   ├── layout.edge
+│   │       │   ├── link.edge
+│   │       │   ├── radio
+│   │       │   │   ├── control.edge
+│   │       │   │   └── group.edge
+│   │       │   ├── select
+│   │       │   │   └── control.edge
+│   │       │   └── textarea
+│   │       │       └── control.edge
+│   │       ├── pages
+│   │       │   ├── auth
+│   │       │   │   ├── login.edge
+│   │       │   │   └── signup.edge
+│   │       │   ├── errors
+│   │       │   │   ├── not_found.edge
+│   │       │   │   └── server_error.edge
+│   │       │   └── home.edge
+│   │       └── partials
+│   │           ├── flash_alerts.edge
+│   │           └── header.edge
+│   ├── start
+│   │   ├── env.ts
+│   │   ├── kernel.ts
+│   │   ├── routes.ts
+│   │   └── validator.ts
+│   ├── tests
+│   │   └── bootstrap.ts
+│   ├── tmp
+│   │   └── db.sqlite3
+│   ├── tsconfig.json
+│   └── vite.config.ts
+└── README.md
+
+32 directories, 67 files
