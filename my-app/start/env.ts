@@ -36,5 +36,5 @@ export default await Env.create(new URL('../', import.meta.url), {
   DB_PASSWORD: Env.schema.string.optional(),
   DB_DATABASE: Env.schema.string(),
 
-  DEV_NAMES: Env.schema.enum(['Saurabh,Ender,Shylo'] as const)
+  DEV_NAMES: Env.schema.enum(['Saurabh','Ender','Shylo'] as const)
 })

@@ -10,6 +10,9 @@
 import { middleware } from '#start/kernel'
 import { controllers } from '#generated/controllers'
 import router from '@adonisjs/core/services/router'
+import env from './env.ts'
+
+console.log(`Developer working on this project - ${env.get('DEV_NAMES')}`)
 
 router.on('/').render('pages/home').as('home')
 
