@@ -15,6 +15,7 @@ import env from './env.ts'
 console.log(`Developer working on this project - ${env.get('DEV_NAMES')}`)
 
 router.on('/').render('pages/home').as('home')
+router.on('/terms').render('pages/terms')
 
 router
   .group(() => {
